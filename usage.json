@@ -1,0 +1,61 @@
+{
+    "symbol": "s-mobile-button",
+    "name": "移动端按钮",
+    "version": "0.0.1",
+    "icon": "demo",
+    "repoAddr": "",
+    "depDescription": {},
+    "description": "请在这里添加描述",
+    "labels": [
+        "demo"
+    ],
+    "screenShot": "https://static-vusion.163yun.com/packages/s-mobile-button.vue@0.0.1/screenshots/0.png",
+    "blocks": "[{\"title\":\"基本用法\",\"description\":\"\",\"code\":\"<template>\\n<s-mobile-button></s-mobile-button>\\n</template>\\n\"}]",
+    "jsonSchema": {
+        "name": "s-mobile-button",
+        "title": "移动端按钮",
+        "description": "请在这里添加描述",
+        "category": "demo",
+        "screenShot": "https://static-vusion.163yun.com/packages/s-mobile-button.vue@0.0.1/screenshots/0.png",
+        "blocks": [
+            {
+                "title": "基本用法",
+                "description": "",
+                "code": "<template>\n<s-mobile-button></s-mobile-button>\n</template>\n"
+            }
+        ],
+        "attrs": [
+            {
+                "name": "value",
+                "type": "number",
+                "default": 0,
+                "description": "需要传入的值"
+            }
+        ],
+        "slots": [
+            {
+                "name": "default",
+                "description": "插入文本或 HTML。"
+            }
+        ],
+        "events": [
+            {
+                "name": "change",
+                "description": "修改时触发",
+                "params": [
+                    {
+                        "name": "$event.param1",
+                        "type": "string",
+                        "description": "参数1"
+                    },
+                    {
+                        "name": "$event.param2",
+                        "type": "number",
+                        "description": "参数2"
+                    }
+                ]
+            }
+        ],
+        "children": []
+    }
+}
